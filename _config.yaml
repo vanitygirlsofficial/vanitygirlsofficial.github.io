@@ -25,7 +25,7 @@ facebook_username: vanitygirlsofficial
 # Build settings
 markdown: kramdown
 theme:
-plugins_dir:
+plugins:
   - jekyll-feed
 
 # Exclude from processing.
