@@ -13,20 +13,24 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Vanity Girls Official
-email: vanitygirlsofficial@gmail.com
-phone: 3186068507
-description: Sitio Web Oficial
+title: Soon
+email: youremailaddress
+phone: 0123456789
+description: A coming soon page for Jekyll
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://vanitygirlsofficial.com.co" # the base hostname & protocol for your site, e.g. http://example.com
-instagram_username: vanitygirlsofficial
-facebook_username: vanitygirlsofficial
+url: "https://yjpl.github.io/soon/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: alternatyves
+github_username: YJPL
 
 # Build settings
 markdown: kramdown
 theme:
-# plugins:
-#   - jekyll-feed
+plugins:
+  - jekyll-feed
+
+include:
+  - _pages
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 </br>
-    <h2 class="footer-heading">Contáctanos.</h2>
+    <h2 class="footer-heading">Contact</h2>
 
     <div class="footer">
 
@@ -15,27 +15,26 @@
 </li>
 <li>
             {% if site.phone %}
-            Whatsapp: <a href="https://wa.me/57{{site.phone}}">{{ site.phone | escape }}</a>
+            Call {{ site.phone | escape }}
             {% endif %}
             </li>
 <li>
             {% if site.email %}
-            Correo electrónico: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {% endif %}
 
           </h3>
 </br>
         <div class="social-media-list">
-            <h2 class="footer-heading">Síguenos en nuestras redes sociales.</h2>
-          {% if site.instagram_username %}
+          {% if site.github_username %}
           <li>
-            {% include icon-github.html username=site.instagram_username %}
+            {% include icon-github.html username=site.github_username %}
           </li>
           {% endif %}
 
-          {% if site.facebook_username %}
+          {% if site.twitter_username %}
           <li>
-            {% include icon-twitter.html username=site.facebook_username %}
+            {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
         </div>

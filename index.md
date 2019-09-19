@@ -5,10 +5,16 @@
 layout: default
 ---
 
-# Vanity Girls Official
+# Soon
 
-Sitio en construcción <i class="fa fa-cog fa-2x"></i>, muy pronto a tu disposición. _Eres creación divina..._
+A simple *coming soon* page built for [Jekyll](https://jekyllrb.com/docs/).
 
-## ¿Que encontrarás en este sitio?
+## What's in it?
 
-En este sitio encontrarás las ofertas, productos y servicios de <a href="https://instagram.com/vanitygirlsofficial"><strong>Vanity Girls Official</strong></a>, así como artículos relacionados con el mundo del maquillaje. Muy pronto estará disponible para todos :-)
+A single static page with a full screen image. Remember those *under construction* sites? The point is to have a contact page for a few hours or a few days while you are building your amazing site.
+
+***
+
+## Get started
+
+[README](https://github.com/YJPL/soon/blob/master/README.md) Get [Soon](https://github.com/YJPL/soon/).
