@@ -92,24 +92,24 @@ p {
 	}
 
 a {
-	color:#357edd;
+	color:#e8174a;
 	text-decoration: none;
-	}
+}
 
 a:visited{
-	color:#96ccff;
+	color:#e8174a;
   	}
 
 a:hover{
-	color:#00449e;
+	color:#e689a0;
   	}
 
 a:focus{
-	color:#009eff;
+	color:#e94a72;
 	}
 
 a:active{
-	color:#001b44;
+	color:#da1d4c;
 	}
 
 .task-list {
@@ -141,13 +141,13 @@ a:active{
 
 .contact-list a,
 .social-media-list a {
-	color: #357edd;
+	color: #e94a72;
 	text-decoration: none;
 	}
 
 .contact-list a:hover,
 .social-media-list a:hover {
-	color: #357edd;
+	color: #e8174a;
 	}
 
 .social-media-list .icon {
