@@ -15,7 +15,7 @@
 </li>
 <li>
             {% if site.phone %}
-            Whatsapp: {{ site.phone | escape }}
+            Whatsapp: <a href="https://wa.me/57{{site.phone}}">{{ site.phone | escape }}</a>
             {% endif %}
             </li>
 <li>
